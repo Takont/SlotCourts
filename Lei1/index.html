@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SlotCourts</title>
+    <link rel="stylesheet" href="style.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/icon.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="read.html">FEATURED</a></li>
+                    <li><a href="form.html">FORM</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1> Slot Courts </h1>
+    <br>
+    <a href="form.html" class="hero-btn">Court Form</a>
+</div>
+    </section>
+
+<!-------------Featured-------------->
+
+
+
+<section class ="read">
+    <h1>Featured Basketball Courts</h1>
+    <div class="row">
+        <div class="read-col">
+            <img src="Images/MarikinaCenter.jpg">
+            <div class="layer"><h3> Marikina Sports Center </h3></div>
+            </div>
+
+        <div class="read-col">
+            <img src="Images/TanongCenter.jpg">
+            <div class="layer"><h3> Tañong Marikina City </h3></div>
+            </div>
+
+        <div class="read-col">
+            <img src="Images/Gerald.jpg">
+            <div class="layer"><h3> Gerald Anderson’s Court </h3></div>
+            </div>
+
+        <div class="read-col">
+            <img src="Images/quezon.jpg">
+            <div class="layer"><h3> Tandang Sora Quezon City </h3></div>
+            </div>
+        <div class="read-col">
+            <img src="Images/FCL.jpg">
+            <div class="layer"><h3> FCL Sports Center Quezon City </h3></div>
+            </div>
+    </div>
+
+</section>
+
+
+<section class="form">
+    <h1>Registration Form</h1>
+        <div class="form-col">
+            <section class="container">
+                <header></header>
+                <form>
+                    <h3 class="text-white">Personal Details</h3>
+                    <div class="input-box">
+                        <label>First Name</label>
+                        <input type="text" placeholder="Enter First Name" required/>
+                    </div>
+
+                    <div class="input-box">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Enter Last Name" required/>
+                    </div>
+
+
+                    <div class="column">
+                        <div class="input-box">
+                            <label>Email Addrress</label>
+                            <input type="text" placeholder="Enter Email Addrress" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label>Phone Number</label>
+                            <input type="text" placeholder="Enter Phone Number" required/>
+                        </div>
+                    </div>
+
+                    <h3 class="text-white">Booking Details</h3>
+                    <div class="column">
+                        <div class="input-box">
+                            <label></label>
+                            <input type="text" placeholder="From" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label></label>
+                            <input type="text" placeholder="To" required/>
+                        </div>
+                    </div>
+                <div id="input3">
+                    <span id="input-group" class="text-primary">Select Your Fare</span>
+                    <input type="radio" id="input-group" name="r">
+                    <label class="text-white" for="input-group">One Way</label>
+                    <input type="radio" id="input-group" name="r">
+                    <label class="text-white" for="input-group">Round Trip</label>
+                </div>
+
+                    <div class="select-box">
+                        <select>
+                        <option hidden>AM or PM</option>
+                        <option>AM</option>
+                        <option>PM</option>
+                        </select>
+                    </div>
+
+                    <div class="preffered-box">
+                        <select>
+                        <option hidden>Preffered Court</option>
+                        <option>Marikina Sports Center</option>
+                        <option>Tañong Marikina City</option>
+                        <option>Gerald Anderson’s Court</option>
+                        <option>Tandang Sora Quezon City</option>
+                        <option>FCL Sports Center Quezon City</option>
+                        </select>
+                    </div>
+
+                    <div class="column">
+                        <div class="input-box">
+                            <label></label>
+                            <input type="text" placeholder="Adult" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label></label>
+                            <input type="text" placeholder="Children (2-11 Years old)" required/>
+                        </div>
+
+                        <div class="input-box">
+                            <label></label>
+                            <input type="text" placeholder="Infant (Under 2 Years old)" required/>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-warning text-white">Submit Form</button>
+                    <button type="reset" class="btn btn-primary">Clear Form</button>
+                </form>
+            </section>
+        </div>
+</section>
+
+
+
+<!---------About Us----------->
+
+
+
+<section class="about">
+    <h1> About Us </h1>
+    <p> All information about us are stored in here. </p>
+</section>
+<!--------------Footer------------->
+
+<section class="footer">
+    <h4>Credits</h4>
+    <p> This website is made using VS Code, Google Fonts, Bootstrap, <br>and Special Thanks to my group mates for giving me the permission to use their site.</p>
+    <div class="icons">
+    <a class="icon-click" href="" target="_blank"> <i class=""></i></a>
+    </div>
+</section>
